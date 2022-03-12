@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+ <style>
+     body{
+         display: grid;
+         grid-template-columns: 30% auto;
+         grid-template-areas: "header header"
+                               "aside main"
+                               "footer footer";
+     }
+     header{
+         padding: 10px;
+         background-color: aquamarine;
+         grid-area: header;
+     }
+     aside{
+         background-color: yellow;
+         color: black;
+         text-align: center;
+         grid-area: aside;
+         height: 900px;
+
+     }
+
+     main{
+         background-color: cadetblue;
+         grid-area: main;
+         height: 900px;
+     }
+     footer{
+         padding: 20px;
+         background-color: rgb(97, 97, 16);
+         grid-area: footer;
+     }
+     ul{
+         display: flex;
+         list-style-type: none;
+         justify-content: center;
+     }
+     ul li{
+         padding: 20px;
+     }
+     
+
+ </style>   
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+
+    </header>
+    <aside>AsideBar</aside>
+    <main>Content</main>
+    <footer>Footer</footer>
+    
+</body>
+</html>
