@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>html-table</title>
+</head>
+<style>
+    table,th,td{
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 2px;
+        text-align: center;
+
+    }
+</style>
+<body>
+    <table>
+        <tr>
+            <td rowspan="3">Day</td>
+            <td colspan="3">Class</td>
+        </tr>
+        <tr>
+            <td colspan="2">Schedule </td>
+            <td rowspan="2">topic</td>
+        </tr>
+        <tr>
+            <td>Begin</td>
+            <td>End</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Sunday</td>
+            <td rowspan="2">1:30</td>
+            <td rowspan="2">5:30</td>
+            <td>Orientation</td>
+        </tr>
+        <tr>
+            <td>Devlopment tools</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Monday</td>
+            <td colspan="1">1:30</td>
+            <td colspan="1">3:00</td>
+            <td colspan="1">HTML5</td>
+        </tr>
+        <tr>
+            <td rowspan="2">3:00</td>
+            <td rowspan="2">3:00</td>
+            <td>Break</td>
+        </tr>
+        <tr>
+            <td>Class Work</td>
+        </tr>
+     
+    </table>
+</body>
+</html>
