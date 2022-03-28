@@ -61,14 +61,14 @@
 
 
 #task_03:
-$subjects = [
-    'cse' => ['c','c++','java'],
-    'bba' => ['accounting', 'management','marketing'],
-    'eee' => ['basic-electronics']
+// $subjects = [
+//     'cse' => ['c','c++','java'],
+//     'bba' => ['accounting', 'management','marketing'],
+//     'eee' => ['basic-electronics']
 
-];
+// ];
 
-echo "<pre>";
+// echo "<pre>";
 
 // foreach($subjects as $key => $value){
 //    echo " <b style ='color:red'>$key .</b>";
@@ -80,6 +80,13 @@ echo "<pre>";
    
 // }
 
-echo "</pre>";
+// echo "</pre>";
+
+
+
+
+
+
+
 
 ?>
