@@ -119,14 +119,32 @@
 // }
 
 // echo "</pre>";
-$arr = array (10, 20, 30); 
+// $arr = array (10, 20, 30); 
 
- foreach ($arr as $val) {  
+//  foreach ($arr as $val) {  
 
-     echo $val += $val;
+//      echo $val += $val;
 
-     echo " "; 
+//      echo " "; 
 
- }  
+//  }  
+
+
+$num = 5; // don't change the number
+// write your code here...
+for($i = 1; $i <= 4; $i++)
+{	
+    echo "<tr>";
+	
+	for($j =1; $j <= $num; $j++)
+	{
+		$multiplication_table = ($i * $j);
+		echo "<td>$j  x $i =  $multiplication_table </td>";
+	}
+	
+	echo "<tr/>";
+}
+
+
 
 ?>
