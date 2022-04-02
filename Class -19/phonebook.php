@@ -1,19 +1,16 @@
-<?php  
+<pre>
+<?php 
 
-if($_SERVER['REQUEST_METHOD']=='POST'){
+session_start();
+ 
 
-    $firstName = $_POST['firstName'];
-    $lastName = $_POST['lastName'];
-    $phoneNumber = $_POST['phoneNumber']; 
-
-}
-
-
-
-
+// if($_SERVER['REQUEST_METHOD']=='POST'){
+//     $firstName = $_POST['firstName'];
+//     $lastName = $_POST['lastName'];
+//     $phoneNumber = $_POST['phoneNumber']; 
+// }
 ?>
-
-
+</pre>
 
 <!doctype html>
 <html lang="en">
