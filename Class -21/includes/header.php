@@ -24,6 +24,7 @@ if(isset($_SESSION['email'])){
         <span><a href="./index.php">Home</a> </span>
         <span> <a href="./users.php">Users</a> </span>
         <span> <a href="./register.php">Register</a> </span>
+        <span> <a href="./product.php">Product</a> </span>
         <?php  
          
          if(!$is_login){
