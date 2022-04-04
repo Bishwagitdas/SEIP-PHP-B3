@@ -18,5 +18,11 @@ class Info{
     }
 
 }
+$info1= new Info;
+$info2= new Info;
+ 
+$info1->setData("Bishwagit","Dhaka","24");
+$info1->setData("Bishwagit Das","Naogaon","24");
+
 
 ?>
