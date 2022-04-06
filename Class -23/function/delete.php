@@ -4,7 +4,7 @@
 
 try{
     if($_SERVER['REQUEST_METHOD'] == 'GET'){
-        $id=$_GET['id'];
+        $id=$_GET['user_id'];
 
         $sql= "DELETE FROM users WHERE id='$id'";
         $statement = $pdo->prepare($sql);
